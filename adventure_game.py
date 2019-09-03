@@ -1,12 +1,12 @@
 import time
 import random
 
-
+# run the game
 def play_game():
     inventory = []
     intro(inventory)
 
-
+# print a message then pause to make the program easier to read
 def print_pause(message):
     print(message)
     time.sleep(1.5)
